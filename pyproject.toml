@@ -9,6 +9,10 @@ license = "MIT"
 python = "^3.8"
 black = "^20.8b1"
 pytest = "^6.2.2"
+pre-commit = "^2.10.1"
+detect-secrets = "^1.0.3"
+coverage = "^5.5"
+flake8 = "^3.8.4"
 
 [tool.poetry.dev-dependencies]
 
