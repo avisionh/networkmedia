@@ -26,9 +26,13 @@ direnv allow
 poetry shell
 poetry install
 
-# 3. check adherence to good standards via pre-commit hooks
+# 3. check adherence to good standards on every commit
 pre-commit install
 ```
+
+Otherwise, read on below to understand each part in more detail.
+
+***
 
 ### 1. Allowing/trusting `.envrc`
 

@@ -2,16 +2,21 @@
 This branch *<succinct summary of the purpose>*.
 
 # Changes
-The changes made in this PR are:
+The high-level changes made in this PR are:
 1. Change 1
 1. Change 2
 
+Please see the commit history for more detailed changes.
 ***
 
 # Check
 - [ ] Check 1
 - [ ] Check 2
-- [ ] The travis.ci and R CMD checks pass.
+- [ ] The test suite passes via running the below:
+```
+python -m pytest tests/
+```
+- [ ] The GitHub Actions checks pass.
 
 ***
 
